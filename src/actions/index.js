@@ -14,7 +14,6 @@ export const addUser = name => ({
     type: types.ADD_USER,
     id: nextUserId++,
     name
-
 })
 
 export const messageReceived = (message, author) => ({
