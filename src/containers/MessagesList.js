@@ -5,7 +5,7 @@ const MessagesList = ({ messages }) => (
     <section id="messages-list">
         <ul>
             {messages.map(message => (
-                <Messages
+                <messages
                     key={message.id}
                     {...message}
                 />
@@ -14,7 +14,7 @@ const MessagesList = ({ messages }) => (
     </section>
 )
 
-Messages.List.PropTypes = {
+MessagesList.PropTypes = {
     messages: PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.number.isRequired,
