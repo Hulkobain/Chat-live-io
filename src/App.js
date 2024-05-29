@@ -10,7 +10,7 @@ import { Component } from 'react';
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div id="container">
         <Sidebar />
         <section id="main">
           <MessagesList />
