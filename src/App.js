@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import { Sidebar } from "./container/Sidebar";
-import { MessagesList } from "./container/MessagesList";
-import { AddMessage } from "./container/AddMessage";
+import { Sidebar } from "./containers/Sidebar";
+import { MessagesList } from "./containers/MessagesList";
+import { AddMessage } from "./containers/AddMessage";
 import { Component } from 'react';
 
 
